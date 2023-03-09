@@ -272,15 +272,15 @@ ul {
 }
 
 @media screen and (min-width: 992px) {
-    .about-img {
-        margin-bottom: 0;
+    .section-center {
+        width: 95vw;
     }
+}
 
-    .about-center {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 2rem;
-    }
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .title {
