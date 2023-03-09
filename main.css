@@ -310,3 +310,9 @@ main {
 .about-img {
     margin-bottom: 2rem;
 }
+
+.about-img img {
+    border-radius: var(--radius);
+    object-fit: cover;
+    height: 20rem;
+}
