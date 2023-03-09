@@ -322,3 +322,10 @@ main {
         column-gap: 2rem;
     }
 }
+
+.about {
+    background: var(--white);
+    border-radius: var(--borderRadius);
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
