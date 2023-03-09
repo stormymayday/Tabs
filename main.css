@@ -264,6 +264,7 @@ ul {
 /* title start */
 .title {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .title p {
