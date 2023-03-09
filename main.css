@@ -329,3 +329,10 @@ main {
     display: grid;
     grid-template-rows: auto 1fr;
 }
+
+.btn-container {
+    border-top-left-radius: var(--borderRadius);
+    border-top-right-radius: var(--borderRadius);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
