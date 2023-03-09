@@ -367,3 +367,16 @@ main {
     border-bottom-right-radius: var(--borderRadius);
     padding: 2rem 1.5rem;
 }
+
+/* hide content */
+.content {
+    display: none;
+}
+
+.tab-btn.active {
+    background: var(--clr-white);
+}
+
+.content.active {
+    display: block;
+}
