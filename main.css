@@ -266,6 +266,11 @@ ul {
     text-align: center;
 }
 
+.title p {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .title-underline {
     background-color: var(--primary-500);
     width: 7rem;
