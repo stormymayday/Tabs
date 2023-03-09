@@ -344,3 +344,15 @@ main {
 .tab-btn:nth-child(3) {
     border-top-right-radius: var(--borderRadius);
 }
+
+.tab-btn {
+    padding: 1rem 0;
+    border: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+    display: block;
+    background: var(--grey-900);
+    cursor: pointer;
+    transition: var(--transition);
+    letter-spacing: var(--letterSpacing);
+}
