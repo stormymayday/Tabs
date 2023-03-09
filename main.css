@@ -361,3 +361,9 @@ main {
     background: var(--primary-900);
     color: var(--primary-500);
 }
+
+.about-content {
+    border-bottom-left-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+    padding: 2rem 1.5rem;
+}
