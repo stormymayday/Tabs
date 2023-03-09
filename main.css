@@ -306,7 +306,7 @@ main {
 }
 
 .about-img img {
-    border-radius: var(--radius);
+    border-radius: var(--borderRadius);
     object-fit: cover;
     height: 20rem;
 }
