@@ -4,6 +4,6 @@ const contentArticles = document.querySelectorAll('.content');
 
 about.addEventListener('click', function (event) {
 
-    console.log(event.target.dataset.id);
+    const id = event.target.dataset.id;
 
 });
