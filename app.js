@@ -8,19 +8,20 @@ about.addEventListener('click', function (event) {
 
     if (id) {
 
-        // removing active class from all the buttons
+        // removing class 'active' from all the buttons
         tabBtns.forEach(function (btn) {
-
             btn.classList.remove('active');
-
         });
 
         // adding class 'active' to the button that was clicked
         event.target.classList.add('active');
 
-        // 
+        // removing class 'actove' from contentArticles
+        contentArticles.forEach(function (article) {
+            article.classList.remove('active');
+        });
 
-        // adding class 'active' to the corresponding content
+        // adding class 'active' to the corresponding contentArticles
 
 
     }
