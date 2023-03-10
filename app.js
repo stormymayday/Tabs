@@ -14,6 +14,9 @@ about.addEventListener('click', function (event) {
             btn.classList.remove('active');
 
         });
+
+        // adding class 'active' to the button that was clicked
+        event.target.classList.add('active');
     }
 
 });
