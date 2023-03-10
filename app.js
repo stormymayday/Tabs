@@ -21,8 +21,9 @@ about.addEventListener('click', function (event) {
             article.classList.remove('active');
         });
 
-        // adding class 'active' to the corresponding contentArticles
-
+        // adding class 'active' to the contentArticle with matching id
+        const element = document.getElementById(id);
+        element.classList.add('active');
 
     }
 
