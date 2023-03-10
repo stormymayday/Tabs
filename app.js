@@ -6,4 +6,14 @@ about.addEventListener('click', function (event) {
 
     const id = event.target.dataset.id;
 
+    if (id) {
+
+        // removing active class from all the buttons
+        tabBtns.forEach(function (btn) {
+
+            btn.classList.remove('active');
+
+        });
+    }
+
 });
