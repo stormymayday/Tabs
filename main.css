@@ -358,7 +358,7 @@ main {
 }
 
 .tab-btn:hover:not(.active) {
-    background: var(--primary-900);
+    background: var(--grey-100);
     color: var(--primary-500);
 }
 
